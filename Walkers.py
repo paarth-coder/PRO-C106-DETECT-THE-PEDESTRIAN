@@ -1,5 +1,5 @@
 import cv2
-
+import numpy as np
 
 # Create our body classifier
 body_classifier = cv2.CascadeClassifier('haarcascade_fullbody.xml')
